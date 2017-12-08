@@ -42,15 +42,17 @@ int main()
 }
 
 
+
+
+
+
 // introduce the game
 void PrintIntro() {
     std::cout << "Welcome to Bulls and Cows a fun word game!!\n" ;
-//    std::cout <<"          }   {        ";
- //   std::cout <<"          (o o)      ";
-//    std::cout <<"  /--------\\ /       ";
-//    std::cout <<" / | BULL |             ";
-//    std::cout <<"*  |      |         ";
-//    std::cout <<"   ^      ^         " ;
+    std::cout <<"         }___{                 (__)   \n";
+    std::cout <<"  /------(o o)          `\------(oo)   \n";
+    std::cout <<"   ||    |\\^/            ||    (__)   \n";
+    std::cout <<"*  ||---||               ||w--||   \n";
     std::cout << "Can you guess the " << BCGame.GetHiddenWordLength() << " letters isogram i'm thinking of? \n";
     return;
 }
